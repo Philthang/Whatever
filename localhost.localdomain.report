@@ -1,0 +1,35 @@
+
+ LVM Configuration: 
+
+
+  ACTIVE            '/dev/fedora_localhost-live/root' [<45.02 GiB] inherit
+  ACTIVE            '/dev/fedora_localhost-live/swap' [3.98 GiB] inherit
+
+
+ Partition Configuration: 
+
+
+Disk /dev/sda: 50 GiB, 53687091200 bytes, 104857600 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x2cedee34
+
+Device     Boot   Start       End   Sectors Size Id Type
+/dev/sda1  *       2048   2099199   2097152   1G 83 Linux
+/dev/sda2       2099200 104857599 102758400  49G 8e Linux LVM
+
+
+
+
+Disk /dev/mapper/fedora_localhost--live-root: 45 GiB, 48335159296 bytes, 94404608 sectors
+Units: sectors of 1 * 512 = 512 bytes
+
+
+ Mounted Filesystems: 
+
+
+Filesystem                              1K-blocks    Used Available Use% Mounted on
+/dev/mapper/fedora_localhost--live-root  47179256 6844092  40335164  15% /
+/dev/sda1                                  999320  154524    775984  17% /boot
